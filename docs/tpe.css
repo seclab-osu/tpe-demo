@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.canvas-image {
+    border: none;
+    margin: 0 0 0 10px;
+}
+
+.canvas-image-thumbnail {
+    border: none;
+    margin: 0 0 0 10px;
+}
+
+.box-v-center {
+    justify-content: center;
+}
+
+.canvas-container {
+    width: 40%;
+}
+
+.author-image {
+    min-width: 50px;
+}

@@ -1,0 +1,10 @@
+baseURL = "https://osucybersec.github.io/tpe-demo"
+languageCode = "en-us"
+title = "Thumbnail Preserving Encryption - Demo"
+
+theme = "introduction"
+publishDir = "../docs"
+
+[params]
+    [params.home]
+        introHeight              = "small"                 # Input either "medium" or "large" or "fullheight"
