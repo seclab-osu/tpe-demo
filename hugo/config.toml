@@ -8,3 +8,6 @@ publishDir = "../docs"
 [params]
     [params.home]
         introHeight              = "small"                 # Input either "medium" or "large" or "fullheight"
+
+[markup.goldmark.renderer]
+unsafe= true

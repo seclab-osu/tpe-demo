@@ -148,9 +148,61 @@ Thumbnail Preserving Encryption Demo
                 <h2 class="title is-2 has-text-centered">Demo</h2>
                 
                 <div class="markdown has-text-centered">
-                    <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+                    <script src="tpe.js"></script>
+<link href="tpe.css" type="text/css" rel="stylesheet" />
+<div id="ddemo" class="box-col">
+<section>
+    <!-- Select image -->
+    <div><input type="file" name="Browse" id="browse" accept="image/*" class="action-button"></div>
+    <span>
+    <div>Number of iterations:<input type="number" name="iterations" id="iterations" min="1" required> </div>
+    <div>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Block Size:<input type="number" name="blocksize" id="blocksize" min="1" required> </div>
+    <div id="abc">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Key:&#160;&#160;&#160;&#160;<input type="text" name="key" id="key" required> </div>
+    <div><button id="set" class="button">Set</button></div>
+    </span>
+    <!-- Original image -->
+    <div class="box-row">
+        <!-- image -->
+        <div class="canvas-container">
+            <div> Original Image </div>
+            <canvas class="canvas-image" id="canvas-og"></canvas>
+        </div>
+        <!-- thumbnail -->
+        <div class="canvas-container">
+            <div> Original Image Thumbnail </div>
+            <canvas class="canvas-image-thumbnail" id="canvas-ogt"></canvas>
+        </div>
+    </div>
+    <!-- Encrypt image -->
+    <div><button id="encrypt" class="button">Encrypt</button></div>
+    <div class="box-row">
+        <!-- image -->
+        <div class="canvas-container">
+            <div> Encrypted Image </div>
+            <canvas class="canvas-image" id="canvas-en"></canvas>
+        </div>
+        <!-- thumbnail -->
+        <div class="canvas-container">
+            <div> Encrypted Image Thumbnail </div>
+            <canvas class="canvas-image-thumbnail" id="canvas-ent"></canvas>
+        </div>
+    </div>
+    <!-- Decrypted image -->
+    <div><button id="decrypt" class="button">Decrypt</button></div>
+    <div class="box-row">
+        <!-- image -->
+        <div class="canvas-container">
+            <div> Decrypted Image</div>
+            <canvas class="canvas-image" id="canvas-de"></canvas>
+        </div>
+        <!-- thumbnail -->
+        <div class="canvas-container">
+            <div> Decrypted Image Thumbnail</div>
+            <canvas class="canvas-image-thumbnail" id="canvas-det"></canvas>
+        </div>
+    </div>
+</section>
+</div>
 
                 </div>
                 
@@ -179,7 +231,7 @@ Thumbnail Preserving Encryption Demo
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>
