@@ -1,24 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://akshithg.github.io/tpe-demo/categories/</loc>
-    <priority>0</priority>
+    <loc>https://osucybersec.github.io/tpe-demo/categories/</loc>
   </url>
   
   <url>
-    <loc>https://akshithg.github.io/tpe-demo/tags/</loc>
-    <priority>0</priority>
+    <loc>https://osucybersec.github.io/tpe-demo/tags/</loc>
   </url>
   
   <url>
-    <loc>https://akshithg.github.io/tpe-demo/home/</loc>
+    <loc>https://osucybersec.github.io/tpe-demo/home/</loc>
   </url>
   
   <url>
-    <loc>https://akshithg.github.io/tpe-demo/</loc>
-    <priority>0</priority>
+    <loc>https://osucybersec.github.io/tpe-demo/</loc>
   </url>
   
 </urlset>
